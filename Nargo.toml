@@ -1,0 +1,9 @@
+[package]
+name = "noir_rsa_bench"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.32.0"
+
+[dependencies]
+rsa = { path = "../noir_rsa" }
+bignum = { path = "../noir-bignum" }
