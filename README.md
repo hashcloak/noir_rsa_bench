@@ -1,6 +1,13 @@
 # Benchmark for noir-rsa
 
-This repository includes the source code used for the benchmarking of the RSA verification using the Noir programming language. 
+This repository includes the source code used for the benchmarking of the RSA verification using the Noir programming language.
+
+## Dependencies
+
+- Noir ≥v0.32.0
+- Barretenberg ≥v0.46.1
+
+Refer to [Noir's docs](https://noir-lang.org/docs/getting_started/installation/) and [Barretenberg's docs](https://github.com/AztecProtocol/aztec-packages/blob/master/barretenberg/cpp/src/barretenberg/bb/readme.md#installation) for installation steps.
 
 ## Description of the benchmark
 
