@@ -8,6 +8,8 @@ We ran a benchmark to measure the number of gates of the circuit, the proving ti
 
 On the one hand, the number of gates is measured using the `bb gates` command. On the other hand, the timing measures are taken using the `hyperfine` command line tool which takes the average of ten executions of the proving and verification commands. These averages are the ones reported in the results presented here.
 
+The benchmarks were executed using a laptop with Intel(R) Core(TM) i7-13700H CPU and 32 GB of RAM.
+
 ## Results
 
 The results for the verification of one signature are the following:
